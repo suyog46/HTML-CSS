@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box{
+    border:2px solid black;
+}
+.container{
+    background:grey;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:20px;
+}
+.a{
+    grid-column:1/4;
+}
+.b{
+    grid-row: 2/4;
+}
+.c{
+
+}

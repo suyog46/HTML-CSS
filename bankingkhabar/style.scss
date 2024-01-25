@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.logo{
+    width:400px;
+    height:70px;
+}
+nav{
+    
+    ul{
+        list-style:none;
+        height:50px;
+        li{
+            border-right: 1px solid white;
+            a{
+                // border:1px solid black;
+                color:white;
+                text-decoration: none;
+                padding:0px 15px;
+                height:100%;
+            }
+        }
+    }
+}
+.banner{
+    width:100%;
+    padding-top: 50px;
+}
+
+.news2{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUdra7nKtstJP2rr27T35qKeO7ChHTklbiTA&usqp=CAU');
+    background-size:cover;
+    position:relative;
+}
+.ab{
+   
+   
+    background-color: black;
+    top:0;
+    left:0;
+}
+.news1{
+ 
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvZsUYDTaP2zSwPxI-zVyA5UoXo7_ncPA3nw&usqp=CAU');
+}
+
+.black{
+    background-color: black;
+    height:100px;
+}

@@ -1,0 +1,247 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins",Tahoma,Geneva,sans-serif; 
+}
+.head{
+    height:42px;
+    width:1281px;
+    background-color:#e31f26ff;
+    color:white;
+    font-family: "Poppins",Tahoma,Geneva,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding:10px 40px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.headleft,.head-left{
+    margin-left:10px;
+}
+.headright,.head-right{
+    margin-right:10px;
+}
+.head-right i{
+    padding:0px 10px;
+}
+.headleft p,.head-left p,.head-left h4,.headright p,.headright h4{
+display: inline;
+}
+nav{
+    background-color: #f8f8fb;
+  
+    height:84.27px;
+    padding:20px 70px 50px 80px;
+}
+.navleft img{
+    width: 230px;
+    height:58.27px;
+}
+.navright{
+    padding:10px 5px 0px 0px;
+}
+.navright ul{
+    list-style:none;
+}
+.navright ul li{
+    display:inline;
+}
+.navright ul li a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.65)    ;
+    padding:8px;
+}
+.dropdown{
+    position: relative;
+}
+.drop{
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    border:1px solid grey;
+    background-color: white;
+    position:absolute;
+    left:10px;
+    top:130%;
+    z-index:2;
+    line-height:45px;
+    display:none;
+}
+.drop li:hover{
+    background-color: rgb(196, 188, 188);
+}
+.boxa{
+    padding:0px;
+    width:132px;
+    height:140px;
+}
+.boxb{
+    width:150px;
+    height:370px;
+}
+
+.a:hover .boxa{
+    display:block;
+}
+.b:hover .boxb{
+    display:block;
+}
+ .navright .drop li{ 
+    display:block;
+}
+.banner{
+    z-index:1;
+    position:relative;
+    height:433.67px;
+    background-image: url('../img/banner.jpg');
+}
+.banner-text{
+    font-weight:400;
+    line-height:38px;
+    position:absolute;
+    bottom:28px;
+    left:500px;
+    color:white;
+}
+.banner-text h2{
+    text-align:center;
+}
+.content{
+
+    
+box-sizing border-box;
+color:rgb(130, 140, 150);
+width:1140px;
+height:599.73px;
+margin:40px auto;
+}
+.content-left img{
+    width:356px;
+    height:503.73
+}
+.content-right{
+   
+    margin-left:40px;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    width:720px;
+    height:503.73px;
+    padding: 48px;
+}
+.content-right h2{
+    color:rgb(33, 37, 41);
+    font-size:32px;
+}
+.content-right p{
+    line-height:33px;
+}
+.contact{
+   background-color:rgb(33, 37, 41);
+   color:rgb(255, 255, 255);
+   padding:6px 12px;
+  width:108.141px;
+  height:38px;
+  border-radius:13px;
+  font-weight:400px;
+  font-size:16px;
+}
+.posts{
+    background-color:rgb(245, 245, 245);
+    color:rgb(130, 140, 150);
+font-size:14px;
+height:720.35px;
+padding:48px;
+}
+.posts-left{
+    width:752px;
+    height:624.39px;
+    
+}
+.posts-right{
+    width:380px;
+    height:624.39px;
+
+}
+.posts-title{
+    color:rgb(130, 140, 150);
+
+    font-size:32px;
+    font-weight: 500;
+
+}
+.box-size{
+    width:336px;
+    height:269px;
+    margin-left:32px;
+    margin-top: 20px;
+    position:relative;
+}
+.box-size img{
+    width:60px;
+    height:60px;
+    margin-left:35px;
+}
+.box1{
+    background-image: url('https://capitalevent.com.np/img/corperative.jpg');
+}
+.box2{
+    background-image:url('https://capitalevent.com.np/img/branding.jpg');
+}
+.box3{
+    background-image:url('https://capitalevent.com.np/img/motivational.jpg');
+}
+.box4{
+    background-image:url('https://capitalevent.com.np/img/music.jpg');
+}
+.box-content{
+    position: absolute;
+    bottom: 22px;
+    left: 108px;
+    line-height:50px;
+}
+.box-content p{
+    color:rgb(255, 255, 255);
+    font-family: Poppins, Tahoma, Geneva, sans-serif;
+font-size:20px;
+font-weight:500;
+}
+.posts-right{
+    color:rgb(255, 255, 255);
+    padding:24px 5px 10px 24px;
+    background-color:rgb(15, 106, 83);
+    line-height:26px;
+}
+.posts-right-up ul{
+    list-style:none;
+}
+.right-title{
+    font-size :28px;
+font-weight:500;
+}
+.posts-right-down{
+    margin-top:30px;
+}
+.posts-right-down img{
+    float:left;
+    width:105.328px;
+    margin:5px;
+    height:78.98px;
+}
+footer{
+    padding:20px;
+    text-align: center;
+    color:rgb(130, 140, 150);
+    background-color:#082032;
+}
+.t{
+    font-size:21px;
+}
+
+

@@ -1,0 +1,55 @@
+@import 'header';
+@mixin box($width,$height,$color:black){
+    width:$width;
+    height:$height;
+    color:$color;
+}
+.cleft{
+    @include box(200px,300px,blue);
+}
+.cright{
+    @include box(200px,300px)
+}
+@mixin res($min){
+    @media(min-width:$min) {
+        @content;
+    }
+}
+h1{
+    @include res(480px){color:blue}
+    @include res(760px){color:red}
+}
+.boxa{
+    width:100px/100px*100%;
+    height:200px;
+}
+.box1{
+    @extend .boxa;
+    padding:10px;
+}
+.box2{
+   @extend .boxa;
+padding: 5px;;
+}
+@mixin ab($a,$b) {
+        @if $b{
+            background-color:black;
+            height:$a;
+        }
+        @else{
+            background-color:blue;
+        }
+}
+.suyog{
+    @extend.boxa;
+  @include ab(200px,true)
+}
+$sizes:20px,10px,50px;
+@each $vv in $sizes{
+    .p-#{$vv}
+    {
+        padding:$vv;
+        width:$vv;
+        margin:$vv;
+    }
+}

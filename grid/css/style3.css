@@ -1,0 +1,13 @@
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(160px,1fr));
+    /* 1fraction ko minimum pani maximum width pani 160px */
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 10px;
+}

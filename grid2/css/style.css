@@ -1,0 +1,65 @@
+.box {
+    background-color: yellow;
+    border:solid 2px black;
+    border-radius:10px;
+    padding:10px;
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 'a a a'
+                        'b c d'
+                        'b e e';
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.e {
+    grid-area: e;
+}
+.container-2{
+    display:grid;
+    grid-template-areas:'aa aa aa aa aa aa'
+                        '. bb bb bb cc .'
+                        '. dd dd ee ee .'
+                        'ff ff ff ff ff ff'
+                        ;
+                    
+}
+.container-2 > div{
+    padding:10px;
+    border:1px solid black;
+}
+.header{
+    grid-area:aa;
+}
+.main-content{
+    grid-area:bb;
+}
+.sidebar{
+    grid-area:cc;
+}
+.twin{
+    grid-area:dd;
+}
+.twin2{
+    grid-area:ee;
+}
+.footer{
+    grid-area:ff;
+}

@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.grid{
+    display:grid;
+}
+.container{
+    margin:0px auto;
+    width:1200px;
+}
+.header-1{
+   grid-template-columns:auto auto; 
+   gap:65px;
+   align-items: center;
+   padding:16px 0;
+}
+nav ul{
+    background-color:#23222A;
+    list-style:none;
+    grid-template-columns: repeat(8,auto);
+    align-items: center;
+    height:46px;
+    padding:0px 45px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+}
+.headings{
+    display:grid;
+    grid-template-columns:20px,50px,60px;
+    position:relative;
+}
+.headings p{
+    background-color: #0e38b1;
+    font-weight: 600;
+    padding:20px;
+    color:white;
+    width:175.72px;
+    position:relative;
+}
+.headings p::before{
+    display:grid;
+    content:'';
+    position:absolute;
+    width:10px;
+    height: 10px;
+    background-color: #0e38b1;
+    left:-30px;
+}
+.headings p::after{
+    display:grid;
+    content:'';
+    position:absolute;
+    width:10px;
+    height: 10px;
+    background-color: #0e38b1;
+    right:30px;
+}
+.content h1{
+    font-size: 32px;
+}
+.content-1 p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.content-1{
+    line-height:40px;
+
+}
+.content-1 hr{
+    margin-bottom: 30px;
+}
+/* .a{
+    background-color: #0e38b1;
+    height:20px;
+    width:40px;
+}
+.b{
+    background-color: #0e38b1;
+    height:20px;
+    width:40px; */
+
+.main-body{
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+    gap:10px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+   
+    
+}
+.grid2{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+}
+.bdy-image{
+    margin:77px;
+    /* border:1px solid black; */
+}
+.grid2 p{
+    font-size: 20px;
+    font-weight: 600; 
+}
+.rajnity{
+    grid-template-columns: 1fr 1fr;
+    gap:52px;
+}
+.left{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:1fr 1fr;
+    gap:64px;
+}

@@ -1,0 +1,24 @@
+$wid:1px solid black;
+.box{
+    display:flex;
+    justify-content:start;
+    border:$wid;
+}
+nav{
+    ul{
+        background-color: black;
+        list-style: none;
+        li{
+            
+            display:inline;
+        }
+        a{
+            text-decoration: none;
+            padding:10px;
+            color:white;
+            &:hover{
+                color:grey;
+            }
+        }
+    }
+}

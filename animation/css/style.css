@@ -1,0 +1,32 @@
+.box{
+    background-color: red;
+    height:100px;
+    width:100px;
+    animation-name: a;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.box1{
+    background-color:blue;
+    height:100px;
+    width:100px;
+    animation-name: b;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    position: absolute;    
+    /* animation-delay: 2s; */
+}
+@keyframes a{
+    100%{
+        background-color: black;
+    }
+}
+@keyframes b{
+    from{
+        left:0;
+    }
+    to{
+        left:600px;
+    }
+}

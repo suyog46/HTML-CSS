@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{ border: 2px solid #000; padding: 30px;}
+        .parent{ background: pink; display: flex; height: 400px;}
+        .a{ flex-basis: 300px; align-self: start; order: 4;}
+        .b{ flex-grow: 1; align-self: end; order: 3;}
+        .c{ flex-grow: 1; align-self: center; order: 1;}
+        .d{ flex-grow: 2; order: 2;}
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box a">A</div>
+        <div class="box b">B</div>
+        <div class="box c">C</div>
+        <div class="box d">D</div>
+    </div>
+</body>
+</html>

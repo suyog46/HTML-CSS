@@ -1,0 +1,15 @@
+@mixin res($max){
+    @media(max-width:$max) {
+        @content;   
+     }
+}
+@mixin wh($w,$h){
+    width:$w;
+    height:$h;
+}
+@mixin flex($g,$d:row,$wr:no-wrap){
+    display: flex;
+    gap:$g;
+    flex-direction: $d;
+    flex-wrap:$wr;
+}

@@ -1,0 +1,77 @@
+.image{
+    display:grid;
+    grid-template-areas: 'a a b'
+                        'c d e'
+                        'f g g';
+    gap:10px;
+    margin:0px 50px;
+}
+.image>div{
+    border:2px solid black;
+    height: 200px;
+}
+.image>div>p{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+.image1{
+    background-image:url("mteverf-1.jpg") ;
+    background-repeat:no-repeat;
+    object-fit:cover;
+    grid-area:a;
+
+}
+.image2{
+    background-image: url("Pokharabeauty-1.jpg");
+    grid-area:b;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.image3{
+    background-image:url("gauri-shanker-rolwaling-langtang-helambu-1.jpg") ;
+    grid-area:c;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.image4{
+    background-image:url("mardihimalannapurnanew-1.jpg") ;
+    grid-area:d;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.image5{
+    background-image:url("Untitleddolpo-1.jpg");
+    grid-area:e;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.image6{
+    background-size:cover;
+    background-image:url("choose-2560-1-1.jpg");
+    grid-area:f;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.image7{
+    background-size:cover;
+    background-image: url("manasluganesh-ght-wildlife-1-1.jpeg");
+    grid-area:g;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+@media(max-width:480px){
+    .image{
+        grid-template-areas: "a"
+                                "b"
+                                "c"
+                                "d"
+                                "e"
+                                "f"
+                                "g";
+    }
+}

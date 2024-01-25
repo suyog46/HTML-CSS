@@ -1,0 +1,84 @@
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  border: 1px solid black;
+}
+
+nav ul {
+  background-color: black;
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+}
+nav ul a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+nav ul a:hover {
+  color: grey;
+}
+
+.cleft {
+  width: 200px;
+  height: 300px;
+  color: blue;
+}
+
+.cright {
+  width: 200px;
+  height: 300px;
+  color: black;
+}
+
+@media (min-width: 480px) {
+  h1 {
+    color: blue;
+  }
+}
+@media (min-width: 760px) {
+  h1 {
+    color: red;
+  }
+}
+
+.boxa, .suyog, .box2, .box1 {
+  width: 100%;
+  height: 200px;
+}
+
+.box1 {
+  padding: 10px;
+}
+
+.box2 {
+  padding: 5px;
+}
+
+.suyog {
+  background-color: black;
+  height: 200px;
+}
+
+.p-20px {
+  padding: 20px;
+  width: 20px;
+  margin: 20px;
+}
+
+.p-10px {
+  padding: 10px;
+  width: 10px;
+  margin: 10px;
+}
+
+.p-50px {
+  padding: 50px;
+  width: 50px;
+  margin: 50px;
+}
